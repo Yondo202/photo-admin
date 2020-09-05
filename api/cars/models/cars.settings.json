@@ -57,6 +57,9 @@
     },
     "VneMynga": {
       "type": "biginteger"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
