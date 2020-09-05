@@ -10,7 +10,7 @@
         "port": 27017,
         "username": "Yondo",
         "password": "killer951988",
-        "uri": "mongodb+srv://Yondo:<password>@cluster0.hubyc.mongodb.net/<dbname>?retryWrites=true&w=majority"
+        "uri": "mongodb+srv://Yondo:killer951988@cluster0.hubyc.mongodb.net/photo-news?retryWrites=true&w=majority"
       },
       "options": {
         "authenticationDatabase": "",
