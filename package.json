@@ -1,0 +1,39 @@
+{
+  "name": "photo-admin-2",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "sqlite3": "latest",
+    "strapi": "3.0.0-beta.20.3",
+    "strapi-admin": "3.0.0-beta.20.3",
+    "strapi-connector-bookshelf": "3.0.0-beta.20.3",
+    "strapi-connector-mongoose": "3.0.0-beta.18.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.3",
+    "strapi-plugin-email": "3.0.0-beta.20.3",
+    "strapi-plugin-upload": "3.0.0-beta.20.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.3",
+    "strapi-provider-upload-google-cloud-storage": "^3.1.4",
+    "strapi-utils": "3.0.0-beta.20.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "451e1454-c5ff-4520-8d9f-19935c7bd2dd"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

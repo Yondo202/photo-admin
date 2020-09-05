@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "houses",
+  "info": {
+    "name": "House"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Garchig": {
+      "type": "string"
+    },
+    "MainPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "OtherPhotos": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Tailbar": {
+      "type": "richtext"
+    },
+    "VneSay": {
+      "type": "biginteger"
+    },
+    "Dvvreg": {
+      "type": "string"
+    },
+    "Bairlal": {
+      "type": "string"
+    },
+    "VneMynga": {
+      "type": "biginteger"
+    }
+  }
+}

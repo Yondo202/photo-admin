@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "name": "Cars"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Garchig": {
+      "type": "string"
+    },
+    "MainPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "OtherPhoto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "VildverlesenOn": {
+      "type": "biginteger"
+    },
+    "OrjIsenOn": {
+      "type": "biginteger"
+    },
+    "VneSay": {
+      "type": "biginteger"
+    },
+    "Hodolgvvr": {
+      "type": "string"
+    },
+    "Vildver": {
+      "type": "string"
+    },
+    "Tailbar": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "VneMynga": {
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "provider": "google-cloud-storage",
+    "providerOptions": {
+      "serviceAccount": {
+        "type": "service_account",
+        "project_id": "tavan-bogd-group",
+        "private_key_id": "e9f809cd950fa02b894a4538c77f24607983d914",
+        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDNaKL7zhQZ2Lkf\ntoOYeqsrS0kewFd30ipkvxXPhg+DXuLs5Z2bpoia59+Zj12N0X4BMHZ+y8sW00zW\nyRlEHgUnLGjbC33sBM+qnUQUhTwBK3ijzdPF4nr2D08G6ieHSYGiPo5ra2RTolMC\nkN7CXdEhBltQlFr7qeTFejxjMRPk23+gpotaKpymdybXyd/z1jaClYprPEzArMQV\npuYBMZs7if2fRYHkY9qFCmoMiFO2HAc61Wg8KQ9ymCp67uQz4lnJGxE7uLTP2FGc\nqjd8QRpYsNmenvyEXsc6awbwwOgk4Q1Fcok3TFg6+4AXsXSmt8jruifhg+C+V0WS\nbavnhQRLAgMBAAECggEAQtc/4gynQdniM82ieOXB+W6gNp+EVvtOzEXaBROszKT9\n1vTJGrNQVIgLnN6oJNP82so4ZP5P8feEU4hQ7neOWbb7z/unWDwgj3ZphvvsEL1i\nnnsF5KjUNmm435kmj8F9q5wLoCzsEsMJnBYkRr9cpBB7encsPCSGyzQBno2D2b51\nlLvurvuzDta/MuO9eEo1DnDuZDW/i4dCtw8OGB7YmijBtYwrHVv/Q6kcdCbomoqG\nD0S7l6OdxjB+2c6DTQ+wGV3rCWOf2/6GBtAvxRsgTy1U98QTF193FhBL5+sfNkCd\nb6C/CEZ0ddfkbyoL60dayW5vwwcsMfEGK+Qa+cdNkQKBgQD8ecfb7awtT03KnhMY\nUxNBZ4dRwriFJETn5YfByDf/WkIXusqe5fXO1oBEw2rRB5vGE7D3T9kSlqxkfbfq\ngP8uaReXMDvGTQ+b5HgkQwPTybpAfYgLaig4UjRoPwaxMVGd7wQwNMpQAU6iwuNn\n/Ncea5NM4rmuNxvMJG8SaVP8bwKBgQDQRqmiTeccQ/UR4FHqtCPc01fSFNB3DEZF\nBzbfL0nV98jGoU5wgRHGQQiSXSt5ZaV77XcLDTaYEyMA/25fhdwrSlV77QN7os5y\nk45zrFkh2J/5glvJhPichoHWjxI3IIF9Z06BPEECSqs6iuno+K5woZrG6COKmeVn\nRLiUw8Ob5QKBgQDwlFbGkd6cOlJFPYWyiw7xJubCGQtdC2eBla1cER6S+325QOvs\np/Inyyvk2lWBo39jKsZZk0Oku+C/zTAgjBUdM1UgYvzChBHYmceFvjn6aOJKq5Ok\nVN7IdESuBUiqNfWwyd4y1UrnG6fD3nN1Vm/h894jyHPot2iMiTcx0x4NjwKBgDC3\n9sIyetcPxmmyETdXf/QNs8M+fyz5wA4xi9JVG25jkaF05gZHCsNXPwwNoze4YSdF\n+sypAJY+E7gOB+FsTH4L20crv97RzHzcqzu/mvHh3DnfFl1jL0xd4k0wFlCy19df\nrOtqDsLceIUvLVwDn7pU8wGIF5g6O4EWgB68VCtJAoGBANgEeO+TVW93x1JtuOmi\n+RbEKU3Kq0ppfNZAvpM+yMrCOrhdRlc6ak1c1AWyRK7Qvoy/F38i6jvZI1FkMQUv\n6BMpnFSLUi4ul04jWyxWxiZrJYLb16JorCch+e44CpvbCh97ZG9uq8VseTZlanBq\n25j1gSOnjVz94itHCnTUVdIG\n-----END PRIVATE KEY-----\n",
+        "client_email": "web-master@tavan-bogd-group.iam.gserviceaccount.com",
+        "client_id": "105656121506123047780",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/web-master%40tavan-bogd-group.iam.gserviceaccount.com"
+      },
+      "bucketName": "photo-news",
+      "baseUrl": "https://storage.googleapis.com/photo-news",
+      "basePath": "/",
+      "publicFiles": true
+    }
+  }
